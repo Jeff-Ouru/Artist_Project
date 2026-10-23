@@ -1,0 +1,13 @@
+.navbar-icons {
+    display: flex;
+    gap: 5rem;
+    align-items: left;
+}
+
+.navbar-icons .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-icons .icon-users  { color: #d22308; }
+.navbar-icons .icon-settings { color: #d8dfda; }

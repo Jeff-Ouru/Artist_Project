@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bright gallery palette for the public studio and marketplace screens. */
+@theme {
+  --color-slate-100: #fff7ed;
+  --color-slate-900: #7c3aed;
+  /* ... other color mappings */
+}
+
+.bright-theme .bg-slate-100 { background-color: #fff7ed !important; }
+.bright-theme .bg-slate-50 { background-color: #fff1f2 !important; }
+.bright-theme .bg-slate-200 { background-color: #fce7f3 !important; }
+.bright-theme .bg-slate-300 { background-color: #f9a8d4 !important; }
+.bright-theme .bg-slate-900 { background-color: #7c3aed !important; }
+.bright-theme .hover\:bg-slate-700:hover { background-color: #c026d3 !important; }
+.bright-theme .bg-amber-100 { background-color: #fef08a !important; }
+.bright-theme .bg-amber-500 { background-color: #f97316 !important; }
+.bright-theme .bg-emerald-100 { background-color: #a7f3d0 !important; }
+
+.bright-theme .border-slate-200 { border-color: #fbcfe8 !important; }
+.bright-theme .border-slate-300 { border-color: #f9a8d4 !important; }
+
+.bright-theme .text-slate-900 { color: #3b0764 !important; }
+.bright-theme .text-slate-800 { color: #581c87 !important; }
+.bright-theme .text-slate-700 { color: #7e22ce !important; }
+.bright-theme .text-slate-600 { color: #a21caf !important; }
+.bright-theme .text-slate-500 { color: #c026d3 !important; }
+.bright-theme .text-slate-400 { color: #db2777 !important; }
+.bright-theme .text-amber-700 { color: #c2410c !important; }
+.bright-theme .text-emerald-700 { color: #047857 !important; }
+
+.bright-theme .bg-gradient-to-br {
+	background-image: linear-gradient(135deg, #7c3aed 0%, #db2777 52%, #f97316 100%) !important;
+}
+
+.bright-theme .shadow-sm {
+	box-shadow: 0 8px 24px rgba(190, 24, 93, 0.09) !important;
+}
